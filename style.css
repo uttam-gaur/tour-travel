@@ -1,0 +1,264 @@
+.symbol{
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-right: 600px;
+}
+p{
+    color:#EBF4F6;
+    font-family:cursive;
+    font-size: larger;
+    
+}
+.heading{
+    width:100%;
+    background-color: rgb(4, 4, 68);
+    color:antiquewhite;
+    display:flex;
+    justify-content:end; 
+    height: 60px;
+    position: fixed;
+    
+}
+.b{
+    padding-right:40px;
+    font-size: larger;
+   
+}
+.image{
+
+   background-size:cover;
+   height: 100%;
+   width: 100%;
+}
+.choice{
+    display:flex;
+    justify-content:center;
+    background-color:rgb(4, 4, 68);
+    width: 100%;
+
+}
+.textbox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: lightslategrey;
+    padding-bottom: 30px;
+}
+.text{
+    
+    padding-right: 20px;
+    font-size: larger;
+    color: white;
+    height: 50px;
+    padding-top: 10px;
+    font-family: cursive;
+    
+    
+}
+button{
+    color: goldenrod;
+    background-color: darkred;
+}
+p{  font-size: medium;
+    border: 5px;
+    border-color: white;
+}
+.options{
+    
+    height: 400px;
+    width: 400px;
+}
+.places{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.box{
+    padding-top: 40px;
+    display: flex;
+    color: aliceblue;
+    font-size: larger;
+    
+
+}
+.foot{
+    height:400px;
+    background-color: rgb(58, 69, 79);
+
+}
+.foot{
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.f1{
+    height:300px;
+    width:400px;
+    
+}
+.xyz{
+    height: 50px;
+color:white;
+background-color:rgb(58, 69, 79); 
+padding-left: 500px;
+border-top: 2px solid white;
+padding-top: 10px;
+}
+.places{
+    background-color:white;
+    background-size: cover;
+    backface-visibility: visible;
+}
+#box1{
+    background-image: url("box1.jpg");
+    background-size: cover;
+}
+#box2{
+    background-image: url("box2.jpg");
+    background-size: cover;
+}
+#box3{
+    background-image: url("box3.jpg");
+    background-size: cover;
+}
+#box4{
+    background-image: url("box4.jpg");
+    background-size: cover;
+}
+#box5{
+    background-image: url("box5.jpg");
+    background-size: cover;
+}
+#box6{
+    background-image: url("box6.jpg");
+    background-size: cover;
+}
+.x{
+    font-size: larger;
+    color: beige;
+
+}
+a{
+    color:azure;
+}
+input{
+    border: 3px solid black;
+    border-radius: 5px;
+    padding-right: 50px;
+}
+div{
+    padding-left: 30px;
+}
+.side{
+    height: 200px;
+    width: 80px;
+    position:sticky;
+    top:20%;
+   padding-top: -60px;
+   
+}
+.o{ 
+    background-color: yellow;
+    border:2px solid whitesmoke;
+    border-radius: 15px;
+}
+.explore{
+    height: 80px;
+    width: 100%;
+    background-color:rgb(4, 4, 68); ;
+}
+.rooms{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.r{
+    height: 300px;
+    width: 350px;
+    
+}
+#room1{
+    background-color: aquamarine;
+    background-image: url("i1.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    
+}
+#room2{
+    background-color: cadetblue;
+    background-image: url("i2.jpg");
+    background-size: cover;
+}
+#room3{
+    background-color: red;
+    background-image: url("i5.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+#room1:hover{
+    background-image: url("i6.jpg");
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .5s;
+}
+#room2:hover{
+    background-image: url("i8.jpg");
+    background-size: cover;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .5s;
+    
+}
+#room3:hover{
+    background-image: url("i9.jpg");
+    background-size: cover;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .5s;
+    
+}
+.i{
+    color:black;
+    font-size: larger;
+    background-color: white;
+    margin-left: -30px;
+    margin-left: 20px;
+}
+.j{
+    background-color: white;
+    color: black;
+    font-size: larger;
+}
+#whatsapp{
+    background-color: rgb(120, 255, 47);
+}
+#instagram {
+     background-color:rgba(255, 0, 4, 0.922);
+}
+#facebook{
+    background-color: rgba(0, 110, 255, 0.833);
+}
+#twitter{
+ background-color: rgb(0, 187, 255);
+}
+#box6{
+    filter:blur(10px);
+}
+.explore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content ,p{
+    font-size: x-large;
+}
+.explore ,input{
+    padding-right: -250px;
+}
